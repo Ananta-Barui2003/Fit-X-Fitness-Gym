@@ -1,0 +1,510 @@
+/* =======================1024px start===================== */
+@media only screen and (max-width: 1024px) {
+    .banner .bnr_slide_box .banner_content {
+        left: 30px;
+    }
+/* =======================1024px end===================== */
+}
+
+
+/* =======================991px start===================== */
+@media only screen and (max-width: 991px) {
+    /* =====================toggle nav css start================== */
+    .header .mobail_nav_btn {
+        display: block;
+    }
+    .header .mobail_nav_btn #humber_btn {
+        display: block;
+    }
+    .header .main_nav .nav_right .menu_bar {
+        display: block;
+        position: fixed;
+        top: 108px;
+        right: -100%;
+        width: 80%;
+        height: 100vh;
+        text-align: center;
+        background: url(../images/mobile-nav-bg6.jpg) no-repeat center;
+        background-size: cover;
+        transition: 0.4s ease-in-out;
+        padding: 60px 40px 40px;
+    }
+    .header .main_nav .nav_right .menu_bar::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #030303ba;
+        z-index: -1;
+    }
+    .header .main_nav .nav_right .menu_bar .nav_link {
+        padding-left: 0;
+        padding: 20px 0;
+    }
+    .header .main_nav .nav_right .menu_bar .nav_link a {
+        font-size: 16px;
+        transition: all 0.10s ease-in-out;
+    }
+    .header .main_nav .nav_right .menu_bar .nav_link:hover {
+        background: #abc502b7;
+    }
+    .header .main_nav .nav_right .menu_bar .nav_link:hover a {
+        color: #1a1a1a;
+    }
+    .header .main_nav .nav_right .social_link li {
+        padding-left: 30px;
+    }
+
+    /* =====================toggle nav css end================== */
+    .style_text {
+        font-size: 28px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    .header .main_nav .logo {
+        max-width: 120px;
+    }
+    .banner .bnr_slide_box .banner_img img {
+        height: 550px;
+        object-fit: cover;
+    }
+    .banner .bnr_slide_box .banner_content {
+        top: 55%;
+    }
+    .banner .bnr_slide_box .banner_content h1 {
+        font-size: 52px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    .gym_card {
+        margin-top: 0;
+    }
+    .gym_card .wraper {
+        margin: 0 -15px;
+    }
+    .gym_card .left_card .card_box, .gym_card .right_card .card_box {
+        padding: 45px 15px 60px 15px;
+    }
+    .why_chose {
+        margin-top: 45px;
+    }
+    .why_chose .wraper {
+        row-gap: 30px;
+    }
+    .why_chose .inner {
+        width: 50%;
+    }
+    .about_us {
+        padding: 45px 0;
+        margin-top: 45px;
+    }
+    .about_us .wraper {
+        row-gap: 30px;
+    }
+    .about_us .left, .about_us .right {
+        width: 100%;
+    }
+    .about_us .left {
+        text-align: center;
+    }
+    .about_us .left h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about_us .left .buton {
+        margin-top: 30px;
+    }
+    .watch_video {
+        padding: 50px 0;
+    }
+    .watch_video .video_content .video_btn a {
+        font-size: 25px;
+        padding: 24px 28px;
+    }
+    .watch_video .video_content h3 {
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: 800;
+        color: #ABC502;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .our_classes {
+        margin-top: 45px;
+    }
+    .our_classes .titel {
+        margin-bottom: 35px;
+    }
+    .our_classes .inner_box {
+        width: 50%;
+    }
+    .testimonials {
+        padding: 50px 0;
+        margin-top: 50px;
+    }
+    .testimonials .titel {
+        margin-bottom: 30px;
+    }
+    .testimonials .success_stories .story_text p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .our_trainers {
+        margin-top: 45px;
+    }
+    .our_trainers .titel {
+        margin-bottom: 30px;
+    }
+    .our_trainers .inner_box {
+        width: 50%;
+    }
+    .get_fit {
+        padding: 50px 0;
+        margin-top: 45px;
+    }
+    .get_fit .titel h2 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+    .get_fit .titel p {
+        padding-bottom: 30px;
+    }
+    .gallery {
+        margin-top: 45px;
+    }
+    .gallery .titel {
+        margin-bottom: 35px;
+    }
+    .gallery .gallery_inner .gallery_img .search_icon span {
+        font-size: 35px;
+    }
+    .packages {
+        padding-top: 25px;
+        margin-top: 45px;
+    }
+    .packages .titel {
+        margin-bottom: 35px;
+    }
+    .packages .wraper {
+        row-gap: 30px;
+        justify-content: center;
+        margin: 0 -10px;
+    }
+    .packages .inner {
+        padding: 0 10px;
+    }
+    .packages .inner .cours_price .wrap_box h4, .packages .inner .cours_price .wrap_box span {
+        font-size: 16px;
+    }
+    .packages .inner .cours_price .pack_detail {
+        padding: 25px 0;
+        padding-left: 15px;
+    }
+    .packages .inner .cours_price .pack_detail li {
+        font-size: 15px;
+    }
+    .our_patner {
+        margin-top: 50px;
+    }
+    .recent_blog {
+        margin-top: 45px;
+    }
+    .recent_blog .wraper {
+        row-gap: 35px;
+    }
+    .recent_blog .left_inner .titel, .recent_blog .right_inner .titel {
+        text-align: center;
+    }
+    .recent_blog .left_inner .titel h2::after, .recent_blog .right_inner .titel h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .recent_blog .left_inner, .recent_blog .right_inner {
+        width: 100%;
+    }
+    .recent_blog .right_inner .event_wrap {
+        justify-content: center;
+    }
+    .recent_blog .right_inner .event_wrap .event_detl .evn_titel {
+        margin-bottom: 0;
+    }
+    .recent_blog .right_inner .event_wrap .event_detl p {
+        margin: 10px 0;
+    }
+    .get_touch {
+        padding: 45px 0;
+        margin-top: 45px;
+    }
+    .get_touch .titel {
+        margin-bottom: 35px;
+    }
+    .get_touch .form .form_wrap {
+        margin: 0 -10px;
+    }
+    .get_touch .form .input_box {
+        padding: 0 10px;
+    }
+    .call_address .inner h3 {
+        font-size: 22px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .call_address .inner h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+    .footer .logo {
+        max-width: 120px;
+    }
+    .footer .social_icon {
+        margin-top: 25px;
+    }
+    .footer .social_icon li {
+        padding-left: 25px;
+    }
+    .footer .social_icon li a {
+        font-size: 20px;
+    }
+/* =======================991px end===================== */
+}
+
+
+/* =======================767px start===================== */
+@media only screen and (max-width: 767px) {
+    .style_text {
+        font-size: 24px;
+        padding-bottom: 8px;
+        margin-bottom: 10px;
+    }
+    .banner .bnr_slide_box .banner_img img {
+        height: 450px;
+    }
+    .banner .bnr_slide_box .banner_content {
+        text-align: center;
+        top: 60%;
+        left: 0;
+    }
+    .banner .bnr_slide_box .banner_content h1 {
+        font-size: 42px;
+    }
+    .banner .bnr_slide_box .banner_content h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .banner .bnr_slide_box .banner_content h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner .bnr_slide_box .banner_content p {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gym_card .left_card, .gym_card .right_card {
+        text-align: center;
+        width: 100%;
+    }
+    .gym_card .left_card .card_box .card_btn, .gym_card .right_card .card_box .card_btn {
+        text-align: center;
+    }
+    .gym_card .left_card .card_box, .gym_card .right_card .card_box {
+        min-height: auto;
+        padding: 25px 15px 30px 15px;
+    }
+    .gym_card .right_card .card_box .opening_time {
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .gym_card .left_card .card_box h3 {
+        margin-bottom: 20px;
+    }
+    .gym_card .left_card .card_box h3::after, .gym_card .right_card .card_box h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .why_chose .inner .item_box .icon span {
+        font-size: 22px;
+        width: 60px;
+        height: 60px;
+    }
+    .why_chose .inner .item_box .detail h5 {
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .about_us .left h2 {
+        margin-bottom: 20px;
+    }
+    .about_us .left p {
+        line-height: 1.4;
+    }
+    .watch_video .video_content h3 {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .watch_video .video_content p {
+        line-height: 1.4;
+    }
+    .our_classes .inner_box .all_classes .class_detail .class_name h4 {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    .our_classes .inner_box .all_classes .class_detail .date_time {
+        padding: 10px 15px;
+    }
+    .our_classes .inner_box .all_classes .class_detail .date_time p {
+        font-size: 12.5px;
+    }
+    .testimonials .success_stories .story_text h3 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .testimonials .success_stories .slick-dots {
+        bottom: -30px;
+    }
+    .our_trainers .inner_box .trainer_item .trainers_detl .name h4, .our_trainers .inner_box .trainer_item .trainers_detl .detail {
+        padding: 15px;
+    }
+    .our_trainers .inner_box .trainer_item .trainers_detl .detail .socail_acc li a {
+        width: 30px;
+        height: 30px;
+    }
+    .get_fit .titel h2 {
+        font-size: 30px;
+    }
+    .gallery .gallery_inner {
+        width: 50%;
+    }
+    .packages .inner {
+        width: 50%;
+    }
+    .recent_blog .right_inner .event_wrap .event_detl {
+        padding-left: 15px;
+    }
+    .recent_blog .right_inner .event_wrap .event_detl .evn_titel {
+        font-size: 16.5px;
+    }
+    .recent_blog .left_inner .blog_news .news_detl {
+        text-align: center;
+    }
+    .recent_blog .right_inner .event_wrap {
+        row-gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .recent_blog .right_inner .event_wrap .event_detl {
+        text-align: center;
+        padding-left: 0;
+    }
+    .recent_blog .right_inner .event_wrap .event_detl .evn_titel {
+        font-size: 16px;
+    }
+    .recent_blog .right_inner .event_wrap .event_detl p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .call_address .inner h3 {
+        font-size: 18px;
+    }
+    .call_address .inner h2 {
+        font-size: 22px;
+    }
+    .call_address .inner p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .copy_right p {
+        font-size: 13px;
+    }
+/* =======================767px end===================== */
+}
+
+
+/* =======================575px start===================== */
+@media only screen and (max-width: 575px) {
+    .get_touch .form .input_box {
+        width: 100%;
+    }
+/* =======================575px end===================== */
+}
+
+
+/* =======================480px start===================== */
+@media only screen and (max-width: 480px) {
+    .header .main_nav .logo {
+        max-width: 110px;
+    }
+    .header .main_nav .nav_right .social_link {
+        padding-left: 20px;
+    }
+    .header .main_nav .nav_right .social_link li {
+        padding-left: 20px;
+    }
+    .header .mobail_nav_btn #humber_btn, .header .mobail_nav_btn #close_btn {
+        font-size: 22px;
+    }
+    .header .main_nav .nav_right .menu_bar {
+        top: 103px;
+    }
+    .banner .bnr_slide_box .banner_content h1 {
+        font-size: 32px;
+    }
+    .gym_card .left_card .card_box h3 {
+        margin-bottom: 15px;
+    }
+    .gym_card .right_card .card_box h3 {
+        margin-bottom: 25px;
+    }
+    .why_chose .inner {
+        width: 100%;
+    }
+    .our_classes .inner_box {
+        width: 100%;
+    }
+    .our_trainers .inner_box {
+        width: 100%;
+    }
+    .get_fit .titel h2 {
+        font-size: 26px;
+    }
+    .gallery .gallery_inner {
+        width: 100%;
+    }
+    .packages .inner {
+        width: 100%;
+    }
+    .recent_blog .left_inner .blog_news .news_detl p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .get_touch .form .form_wrap {
+        row-gap: 20px;
+    }
+    .call_address .wraper {
+        row-gap: 30px;
+    }
+    .call_address .inner {
+        width: 100%;
+        border-right: none;
+    }
+    .footer .social_icon {
+        margin-top: 10px;
+    }
+/* =======================480px end===================== */
+}
+
+
+/* =======================320px start===================== */
+@media only screen and (max-width: 320px) {
+
+/* =======================320px end===================== */
+}
